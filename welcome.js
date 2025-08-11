@@ -115,7 +115,7 @@ function translatePage(lang) {
 
 // 事件監聽器
 nextBtn.addEventListener('click', () => {
-    window.location.href = 'user-info.htm';
+    window.location.href = 'user-info.html';
 });
 
 langButtons.forEach(btn => {
