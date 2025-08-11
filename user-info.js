@@ -168,7 +168,7 @@ function saveUserProfile() {
     localStorage.setItem('medaiUserProfile', JSON.stringify(userProfile));
     
     // 前往AI助手頁面
-    window.location.href = 'app.htm';
+    window.location.href = 'app.html';
     
     return false;
 }
