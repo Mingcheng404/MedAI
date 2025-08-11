@@ -368,7 +368,7 @@ function updateAiMessage(id, content) {
 
 // 事件監聽器
 backBtn.addEventListener('click', () => {
-    window.location.href = 'user-info.htm';
+    window.location.href = 'user-info.html';
 });
 
 submitBtn.addEventListener('click', getMedicationSuggestion);
